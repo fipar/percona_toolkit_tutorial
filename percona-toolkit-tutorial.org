@@ -18,25 +18,25 @@
   - More in our talk tomorrow
 * Utility
 ** pt-find
+:PROPERTIES:
+:BEAMER_envargs: [t]
+:END:
   - Find tables and take actions
   - Like the unix 'find' command
   - Works from SHOW TABLES and if needed SHOW TABLE STATUS
-#+LATEX_HEADER: \begin{frame}[fragile]
-#+LATEX_HEADER: \begin{verbatim}
-pt-find --mtime +30 --engine Innodb --exec "ALTER TABLE %D.%N ENGINE=MyISAM"
-#+LATEX_HEADER: \end{verbatim}
-#+LATEX_HEADER: \end{frame}
-
+:PROPERTIES:
+:BEAMER_col: 0.45
+:BEAMER_ENV: block
+:END:
+:   pt-find --mtime +30 --engine Innodb \
+:    --exec "ALTER TABLE %D.%N ENGINE=MyISAM"
 ** pt-kill
   - Watch SHOW PROCESSLIST
   - Select processes, or groups of processes
   - Apply filters
   - Take a specified action
-#+LATEX_HEADER: \begin{frame}[fragile]
-#+LATEX_HEADER: \begin{verbatim}
-pt-kill --busy-time 60 --kill --interval 30
-#+LATEX_HEADER: \end{verbatim}
-#+LATEX_HEADER: \end{frame}
+: pt-kill --busy-time 60 --kill --interval 30
+
 ** pt-tcp-model
   - Analyses tcpdump data
   - Desgined to help scalability and performance analysis
