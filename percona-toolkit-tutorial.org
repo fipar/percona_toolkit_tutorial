@@ -6,11 +6,12 @@
 #+MACRO: BEAMERINSTITUTE Percona Inc.
 #+TITLE: Percona Toolkit
 #+AUTHOR: Marcos Albe, Fernando Ipar
+#+OPTIONS: ^:nil
 
 * Introduction
 ** About us
   - Marcos Albe, Support Engineer @ Percona
-  - Fernando Ipar, Consultant @ Percona
+  - Fernando Ipar, Senior Consultant @ Percona
 ** About this tutorial
   - We'll review all the tools in the kit
   - Won't be in depth
@@ -157,6 +158,10 @@
 ** pt-trend
   - Obsolete tool, likely to be removed
   - Slices a query log and reports aggregate stats from segments of it
+** pt-fingerprint
+  - Converts queries into fingerprints
+** pt-table-usage
+  - Analyze how queries use tables
 * Troubleshooting
 ** pt-stalk
   - Essential tool for diagnosing things
