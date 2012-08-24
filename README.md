@@ -1,6 +1,9 @@
 percona_toolkit_tutorial
 ========================
 
-Slides for a PLNY tutorial on Percona Toolkit. 
-These are generated using emacs org-mode, exporting to latex with beamer. 
-A pdf version is also included in the repository for reference. 
+Percona Live '12 tutorial on Percona Toolkit. 
+
+This is just a plain text file, but you can generate a PDF slide deck exporting from org-mode to latex using beamer.    
+This blog post explains how to set up org-mode for this: http://emacs-fu.blogspot.com/2009/10/writing-presentations-with-org-mode-and.html
+
+
