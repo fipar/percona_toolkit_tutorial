@@ -238,7 +238,7 @@ pt-fifo-split
 pt-ioprofile
 ===
 
-- Dangerous tool!
+- <span class="warning">Dangerous tool!</span>
 - Attaches strace to a process
 - Captures I/O-related system calls
 - Generates a profile of I/O activity
@@ -248,7 +248,7 @@ pt-ioprofile
 pt-pmp
 ===
 
-- Dangerous tool!
+- <span class="warning">Dangerous tool!</span>
 - Attaches gdb to a process
 - Prints out stack traces
 - Aggregates them
@@ -432,7 +432,7 @@ pt-slave-restart
 ===
 
 - Restart replication when it fails
-- Please use with care!
+- <span class="warning">Please use with care!</span>
   - Skipping errors is not good practice
   - Useful in dire circumstances
 	
@@ -451,7 +451,7 @@ pt-table-sync
 ===
 
 - Repair (online!) an out-of-sync replica
-- Use with care! It does change data
+- <span class="warning">Use with care! It does change data</span>
 - Also possible to do multi-server sync with confict detection, etc
 
 !
