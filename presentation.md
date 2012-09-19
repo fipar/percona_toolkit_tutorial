@@ -21,8 +21,8 @@ About this tutorial
 ===
 - We'll review all the tools in the kit
 - Won't be in depth
-- Some live demos if possible
-- More in our talk tomorrow
+- As hands on as possible
+- More specific examples in our talk tomorrow
 
 !
 
@@ -138,7 +138,7 @@ The toolkit
 	</tr>	
 	<tr>
 		<td rowspan=8>Query related</td>
-		<td>pt-query-advisort</td>
+		<td>pt-query-advisor</td>
 	</tr>
 	<tr>
 		<td>pt-index-usage</td>
@@ -159,7 +159,7 @@ The toolkit
 		<td>pt-fingerprint</td>
 	</tr>
 	<tr>
-		<td>pt-table-usagec</td>
+		<td>pt-table-usage</td>
 	</tr>
 </table>
 
