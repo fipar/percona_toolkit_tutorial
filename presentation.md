@@ -290,6 +290,16 @@ pt-archiver
   
 !
 
+pt-archiver
+===
+
+    pt-archiver --primary-key-only \ 
+	   --source
+	   h=localhost,D=source-database,t=source-table,u=archiver,p=user-password \
+	   --purge --where 'ts < date_sub(now(), interval 7 day)' --txn-size 10000
+
+!
+
 pt-log-player
 ===
 
