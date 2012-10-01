@@ -21,8 +21,17 @@ About this tutorial
 ===
 - We'll review all the tools in the kit
 - Won't be in depth
-- As hands on as possible
-- More specific examples in our talk tomorrow
+  - Focused on most frequently used tools
+- As hands on as time permits
+- More specific examples in our 'recipes' talk tomorrow
+
+!
+
+
+Testing VMs
+===
+
+	https://github.com/fipar/vagrant_pt_demos
 
 !
 
@@ -37,7 +46,7 @@ The toolkit
 		<td>pt-find</td>
 	</tr>
 	<tr>
-		<td>pt-kill</td>
+		<td class=highlight>pt-kill</td>
 	</tr>
 	<tr>
 		<td>pt-tcp-model</td>
@@ -63,23 +72,23 @@ The toolkit
 	</tr>	
 	<tr>
 		<td rowspan=3>Do things</td>
-		<td>pt-archiver</td>
+		<td class=highlight>pt-archiver</td>
 	</tr>
 	<tr>
 		<td>pt-log-player</td>
 	</tr>
 	<tr>
-		<td>pt-online-schema-change</td>
+		<td class=highlight>pt-online-schema-change</td>
 	</tr>
 	<tr>
 		<td colspan=2><hr/></td>
 	</tr>	
 	<tr>
 		<td rowspan=6>Learn things</td>
-		<td>pt-summary</td>
+		<td class=highlight>pt-summary</td>
 	</tr>
 	<tr>
-		<td>pt-mysql-summary</td>
+		<td class=highlight>pt-mysql-summary</td>
 	</tr>
 	<tr>
 		<td>pt-config-diff</td>
@@ -116,7 +125,7 @@ The toolkit
 	</tr>	
 	<tr>
 		<td rowspan=6>Replication related</td>
-		<td>pt-heartbeat</td>
+		<td class=highlight>pt-heartbeat</td>
 	</tr>
 	<tr>
 		<td>pt-slave-delay</td>
@@ -125,13 +134,13 @@ The toolkit
 		<td>pt-slave-find</td>
 	</tr>
 	<tr>
-		<td>pt-slave-restart</td>
+		<td class=highlight>pt-slave-restart</td>
 	</tr>
 	<tr>
-		<td>pt-table-checksum</td>
+		<td class=highlight>pt-table-checksum</td>
 	</tr>
 	<tr>
-		<td>pt-table-sync</td>
+		<td class=highlight>pt-table-sync</td>
 	</tr>
 	<tr>
 		<td colspan=2><hr/></td>
@@ -144,13 +153,13 @@ The toolkit
 		<td>pt-index-usage</td>
 	</tr>
 	<tr>
-		<td>pt-query-digest</td>
+		<td class=highlight>pt-query-digest</td>
 	</tr>
 	<tr>
 		<td>pt-visual-explain</td>
 	</tr>
 	<tr>
-		<td>pt-upgrade</td>
+		<td class=highlight>pt-upgrade</td>
 	</tr>
 	<tr>
 		<td>pt-trend</td>
@@ -168,10 +177,10 @@ The toolkit
 <table align=center>
 	<tr>
 		<td rowspan=2>Troubleshooting</td>
-		<td>pt-stalk</td>
+		<td class=highlight>pt-stalk</td>
 	</tr>
 	<tr>
-		<td>pt-sift</td>
+		<td class=highlight>pt-sift</td>
 	</tr>
 </table>
 
